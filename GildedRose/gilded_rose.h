@@ -29,4 +29,9 @@ private:
     void updateConjured(Item& item);
     static void increaseQuality(Item& item);
     static void decreaseQuality(Item& item);
+    static bool isAgedBrie(const Item& item);
+    static bool isSulfuras(const Item& item);
+    static bool isBackstagePass(const Item& item);
+    static bool isConjured(const Item& item);
+    static bool isPastSellDate(const Item& item);
 };
