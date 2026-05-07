@@ -1,0 +1,6 @@
+x64/
+coverage/
+packages/
+*.log
+.vs/
+*.user
